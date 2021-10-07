@@ -1,0 +1,55 @@
+#Year
+Year = input("Please Input the Year")
+Year = float(Year)
+#Month
+Month = input("Please Input Which Numerical Month it is: ")
+Month = float(Month)
+
+
+
+if Year % 4 == 0:
+    if Month == 1:
+         Days_in_Month = 31
+
+    if Month == 2:
+            Days_in_Month = 28
+
+    if Month == 3:
+            Days_in_Month = 31
+
+    if Month == 4:
+            Days_in_Month = 30
+
+    if Month == 5:
+            Days_in_Month = 31
+
+    if Month == 6:
+            Days_in_Month = 30
+
+    if Month == 7:
+            Days_in_Month = 31
+
+    if Month == 8:
+        Days_in_Month = 31
+
+    if Month == 9:
+            Days_in_Month = 30
+
+    if Month == 10:
+            Days_in_Month = 31
+
+    if Month == 11:
+            Days_in_Month = 30
+
+    if Month == 12:
+            Days_in_Month = 31
+
+
+
+else:
+    print("Sorry, It is not a leap year")
+Total_Days = (Days_in_Month + 1)
+
+print(Total_Days)
+
+print("Is a leap year")
